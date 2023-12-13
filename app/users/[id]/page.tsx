@@ -1,7 +1,13 @@
-export default function IdPage(){
+const IdPage = ({
+    params,
+}:{
+    params: {id: string}
+
+}) => {
     return(
         <div>
-            Id page!
+            Id:{params.id}
         </div>
     )
 }
+export default IdPage
