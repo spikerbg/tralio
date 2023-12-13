@@ -26,7 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+# for auth clerk.com need make register and need make .env.local after this need add 
+#NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+#CLERK_SECRET_KEY=
 .env*.local
+.env
 
 # vercel
 .vercel
